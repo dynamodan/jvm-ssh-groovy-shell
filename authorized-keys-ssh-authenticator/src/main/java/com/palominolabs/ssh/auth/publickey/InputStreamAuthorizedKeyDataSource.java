@@ -80,7 +80,7 @@ public final class InputStreamAuthorizedKeyDataSource implements AuthorizedKeyDa
 
                 Matcher matcher = KEY_PATTERN.matcher(line);
                 if (!matcher.matches()) {
-                    logger.warn("Line " + lineNum + ": Could not parse line: <" + line + ">");
+                    // logger.warn("Line " + lineNum + ": Could not parse line: <" + line + ">");
                     continue;
                 }
 
