@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.dynamodan.ssh</groupId>
   <artifactId>authorized-keys-ssh-authenticator</artifactId>
-  <version>0.13.0</version>
+  <version>1.6.0</version>
   <developers>
 	<developer>
 	  <name>Dan Hartman</name>
@@ -23,7 +23,7 @@
     <dependency>
       <groupId>org.apache.sshd</groupId>
       <artifactId>sshd-core</artifactId>
-      <version>0.13.0</version>
+      <version>1.6.0</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
