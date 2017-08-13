@@ -1,7 +1,7 @@
 package com.palominolabs.ssh.auth.publickey;
 
 import com.google.common.base.Predicate;
-import org.apache.sshd.server.PublickeyAuthenticator;
+import org.apache.sshd.server.auth.pubkey.PublickeyAuthenticator;
 import org.apache.sshd.server.session.ServerSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
